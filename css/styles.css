@@ -23,20 +23,15 @@
 /* footer color */
 #2E2F42 
 
+/* LOGO STYLES*/
 
-/* LOGO styles*/
-.logo {
-    color: var(--primary-color-text);
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.3;
+.link {
+    text-decoration: none;
 }
 
-.footer-logo {
-    color: var(--secondary-background-color);
-    background: var(--primary-color-text);
-    font-family: 'Raleway';
+.logo {
+    color: var(--primary-color-text);
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.3;
@@ -46,20 +41,28 @@
     color: var(--btn-hover-color);
 }
 
+.footer-logo {
+    color: var(--secondary-background-color);
+    background: var(--primary-color-text);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
 .footer-accent {
     color: var(--btn-hover-color);
 }
-
-/* HEADER*/
-.header {
-    background: var(--main-background-color);
-    box-shadow: 2px 1px rgba(46, 47, 66, 0.08);
+  
+.list {
+    list-style: none;
 }
+
 
 /* NAVIGATION*/
 
 .menu-item .menu-link {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -88,11 +91,10 @@
     color: var(--accent-color);
 }
 
-/*BODY*/
-body {
-    font-family: 'Roboto', sans-serif;
-    color: var(--primary-color-text);
+/* HEADER*/
+.header {
     background: var(--main-background-color);
+    box-shadow: 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 /*HERO SECTION*/
@@ -104,6 +106,13 @@ body {
     text-align: center;
     color: var(--main-background-color);
     background: var(--primary-color-text);
+}
+
+/*BODY*/
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-color-text);
+    background: var(--main-background-color);
 }
 
 /*--BUTTONS --*/
@@ -176,11 +185,4 @@ body {
 /*TEAM-SECTION*/
 .team-section {
     background: var(--secondary-background-color);
-}
-.link {
-    text-decoration: none;
-}
-
-.list {
-    list-style: none;
 }
