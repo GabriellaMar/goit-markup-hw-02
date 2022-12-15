@@ -21,13 +21,8 @@
 #404BBF
 
 /* footer color */
-#2E2F42 .link {
-    text-decoration: none;
-}
+#2E2F42 
 
-.list {
-    list-style: none;
-}
 
 /* LOGO styles*/
 .logo {
@@ -181,4 +176,11 @@ body {
 /*TEAM-SECTION*/
 .team-section {
     background: var(--secondary-background-color);
+}
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
 }
