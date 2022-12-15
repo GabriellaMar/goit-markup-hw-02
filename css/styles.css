@@ -8,9 +8,7 @@
 }
 
  
-.link {
-    text-decoration: none;
-}
+
 /* LOGO STYLES*/
 
 .logo {
@@ -42,7 +40,6 @@
     list-style: none;
 }
 
-
 /* NAVIGATION*/
 
 .menu-item .menu-link {
@@ -73,6 +70,10 @@
 .contact-item .contact-link:hover,
 .contact-item .contact-link:focus {
     color: var(--accent-color);
+}
+
+.link {
+    text-decoration: none;
 }
 
 /* HEADER*/
