@@ -7,27 +7,11 @@
     --btn-hover-color: #404BBF;
 }
 
-/*  primary-color-text */
-#2E2F42
-/*--secondary-color-text--*/
-#434455
-/*--main-background-color--*/
-#FFFFFF
-/*--secondary-background-color--*/
-#F4F4FD
-/*--accent-color--*/
-#4D5AE5
-/*---btn-hover-color--*/
-#404BBF
-
-/* footer color */
-#2E2F42 
-
-/* LOGO STYLES*/
-
+ 
 .link {
     text-decoration: none;
 }
+/* LOGO STYLES*/
 
 .logo {
     color: var(--primary-color-text);
